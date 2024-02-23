@@ -1,0 +1,84 @@
+/*
+Color pallete
+#561C24 rgb(86, 28, 36) Dark Brown
+#6D2932 rgb(109, 41, 50) Brown
+#C7B7A3 rgb(199, 183, 163) Dark Beige
+#E8D8C4 rgb(232, 216, 196) Beige
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header CSS start */
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(86, 28, 36);
+    margin: 0em 0em 1em 0em;
+}
+.logoContainer img{
+    width: 100%;
+    height: auto;
+    max-width: 75px;
+    border-radius: 50%;
+    background-color: rgb(232, 216, 196);
+}
+.nav-items{
+    display:flex;
+    justify-content: space-between;
+    color: rgb(232, 216, 196);
+}
+.nav-items div{
+    padding:5px 15px;
+}
+
+/* Header CSS End */
+
+/* Body Container CSS start */
+
+.bodyContainer{
+    display:flex;
+    flex-direction: column;
+
+}
+.sliderContainer{
+    background-color: rgb(199, 183, 163);
+    width:100%;
+    height:25em;
+    margin: 1em 0em 1em 0em;
+}
+.OrderNow{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight:600;
+}
+.foodCategoryContainer{
+    background-color: rgb(232, 216, 196);
+    width:100%;
+    height:50em;
+    margin: 1em 0em 1em 0em;
+}
+
+/* Body Container CSS end */
+
+/* Footer Container CSS start */
+
+.footerContainer{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(109, 41, 50);
+    margin: 1em 0em 0em 0em;
+    color:rgb(232, 216, 196);
+}
+.upperFooter{
+    display:flex;
+    justify-content: space-around;
+    padding: 3em;
+}
+.lowerFooter{
+    background-color:black;
+    padding: 0.5em;
+}
+
+/* Footer Container CSS end */
