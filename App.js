@@ -26,6 +26,10 @@ const HeaderComponent = () => {
                 <div>
                     <>Location</>
                 </div>
+                <div className="searchBar">
+                    <input type="text" name="search" placeholder="Search"></input>
+                    <button id="search" value={SVGCircleElement}></button>
+                </div>
 
             </div>
             <div className="nav-items">
