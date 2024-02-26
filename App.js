@@ -72,7 +72,6 @@ const HeaderComponent = () => {
                     <input type="text" name="search" placeholder="Search"></input>
                     <button id="search">Search</button>
                 </div>
-
             </div>
             <div className="nav-items">
                 <div>Cart</div>
@@ -87,7 +86,7 @@ const CategoryCardComponent = (props) => {
     const {foodCategory}=props;
     const {id,image,categoryName}=foodCategory;
     return (
-        <div className="categoryCard" id={id}>
+        <div className="categoryCard" >
             <img src={image} alt="Image" />
             <div className="categoryName">{categoryName}</div>
         </div>
@@ -103,7 +102,7 @@ const BodyComponent = () => {
             <div className="foodCategoryContainer">
             {
                 foodCategoryList.map((item)=>(
-                     <CategoryCardComponent foodCategory={item}/>
+                     <CategoryCardComponent key={item.id} foodCategory={item}/>
                     )
                 )
             }
