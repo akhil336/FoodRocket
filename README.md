@@ -1,14 +1,14 @@
 Run the app by:
-<div style="background-color:grey">
+<h6 style="background-color:grey">
 #Installations:<br>
-<span style="color:blue">npm install react<br>
+<h6 style="color:blue">npm install react<br>
 npm install react-dom<br>
-npm install parcel</span>
+npm install parcel</h6>
 <br>
 #to start the app:<br>
-<span style="color:blue">npm start<br>
-npx parcel index.html</span>
-</div>
+<h6 style="color:blue">npm start<br>
+npx parcel index.html</h6>
+</h6>
 
 <h2>Basic UI structure</h2>
 <h4>Lets build FoodRocket inspired by https://box8.in/</h4>
