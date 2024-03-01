@@ -32,6 +32,9 @@ body {
 .nav-items div{
     padding:5px 15px;
 }
+.searchBar input{
+    width: 5em;
+}
 
 /* Header CSS End */
 
@@ -45,13 +48,16 @@ body {
 .sliderContainer{
     background-color: rgb(199, 183, 163);
     width:100%;
-    height:25em;
+    height:15em;
     margin: 1em 0em 1em 0em;
 }
-.OrderNow{
+.textBodyHeading{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight:600;
+    display: flex;
+    justify-content:left;
+    margin-left: 1%;
 }
 .foodCategoryContainer{
     background-color: rgb(232, 216, 196);
@@ -59,15 +65,15 @@ body {
     height:auto;
     margin: 1em 0em 1em 0em;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
     justify-content: center;
 }
 .categoryCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    max-width: 300px;
-    min-width:200px;
-    height:200px;
-    margin: 2em;
+    max-width: 150px;
+    min-width:150px;
+    height:100px;
+    margin: 1em;
     text-align: center;
     font-family: arial;
     position: relative;
@@ -79,22 +85,29 @@ body {
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.3);
 }
 .categoryName {
-    font-size:20px;
+    font-size:15px;
     font-weight:500;
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     background-color: #00000078;
 }
-  .categoryCard img{
+.categoryCard img{
     width:100%;
     height:100%;
     object-fit:cover;
-  }
+}
+.restaurantsContainer{
+    background-color: rgb(191, 191, 191);
+    width:100%;
+    height:15em;
+    margin: 1em 0em 1em 0em;
+}
+
 /* Body Container CSS end */
 
 /* Footer Container CSS start */
