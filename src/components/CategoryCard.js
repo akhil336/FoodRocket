@@ -1,7 +1,7 @@
 const CategoryCard = (props) => {
-   
-    const {foodCategory}=props;
-    const {id,image,categoryName}=foodCategory;
+
+    const {image,id,categoryName}=props.foodCategory;
+
     return (
         <div className="categoryCard" >
             <img src={image} alt="Image" />

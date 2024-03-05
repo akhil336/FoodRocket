@@ -7,7 +7,6 @@ const Slider = (props) =>{
     </div>
     )
 
-
     // for (let i = 0; i < carousalSliderImages.length; i++) {
     //     const imageURL = carousalSliderImages[i];
     //     const divElement = document.createElement("div");

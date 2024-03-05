@@ -1,10 +1,8 @@
 import CategoryCard from "./CategoryCard";
+import RestaurantCard from "./RestaurantCard";
 import Slider from "./Slider";
-import { carousalSliderImages, foodCategoryList } from "../utils/dummyData";
+import {foodCategoryList, restaurantsList} from "../utils/dummyData";
 import { useState } from "react";
-
-let currentSliderImageIndex=0;
-
 
 const Body = () => {
     
@@ -27,7 +25,12 @@ const Body = () => {
             </div>
             <div className="textBodyHeading"><div>Restaurants near me</div></div>
             <div className="restaurantsContainer">
-                <>Restaurants Cards</>
+            {
+                restaurantsList.map((item)=>(
+                        <RestaurantCard key={item.info.id} restaurant={item.info}/>
+                    )
+                )
+            }
             </div>
         </div>
     );
