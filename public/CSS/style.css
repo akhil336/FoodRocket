@@ -101,6 +101,17 @@ body {
     height:100%;
     object-fit:cover;
 }
+.filterTopRated{
+    width:fit-content;
+    color: white;
+    background-color: rgb(109, 41, 50);
+    margin-left: 2%;
+    padding: 0.4em;
+}
+.filterTopRated :after{
+    background-color: rgb(22, 21, 21);
+
+}
 .restaurantsContainer{
     background-color: rgb(109, 41, 50);
     width:100%;
@@ -120,7 +131,7 @@ body {
     font-family: arial;
     position: relative;
     background-color:rgb(199, 183, 163);
-    transition: box-shadow 0.1s ease-in-out;
+    /* transition: box-shadow 0.1s ease-in-out; */
 }
 
 .restaurantCard img{
@@ -135,7 +146,10 @@ body {
 .restaurantCard :hover{
     box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
 }
+.restaurantName{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
 /* Body Container CSS end */
 
 /* Footer Container CSS start */
@@ -143,7 +157,7 @@ body {
 .footerContainer{
     display:flex;
     flex-direction: column;
-    background-color:rgb(109, 41, 50);
+    background-color:rgb(64, 22, 27);
     margin: 1em 0em 0em 0em;
     color:rgb(232, 216, 196);
 }

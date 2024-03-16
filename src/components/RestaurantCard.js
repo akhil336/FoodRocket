@@ -8,7 +8,7 @@ const RestaurantCard=(props)=>{
         <img src={imageDataBlobStoreSwiggy+imageId} alt={name} />
         <div className="restaurantInfo">
             <div className="restaurantName">{name}</div>
-            <div className="restaurantRating">{avgRating}/5 stars</div>
+            <div className="restaurantRating">{avgRating} stars</div>
             <div className="restaurantArea">{areaName}</div>
         </div>
     </div>

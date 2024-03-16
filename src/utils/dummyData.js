@@ -46,197 +46,34 @@ export const carousalSliderImages = [
     "https://www.railmitra.com/uploads/front/images/banners/food-order-in-train_1679590858.webp"
 ];
 
-export const restaurantsList =  [
+
+export const restaurantsList =   [
     {
         "info": {
-            "id": "16073",
-            "name": "California Burrito",
-            "imageId": "27238ee4292d42c7b705f2ce8671ff80",
-            "locality": "Malleshwaram",
-            "areaName": "Malleshwaram",
-            "costForTwo": "₹250 for two",
+            "id": "619503",
+            "name": "Litti Heist",
+            "imageId": "kq5fmu174kikep8wfljh",
+            "locality": "1st Block",
+            "areaName": "Koramangala",
+            "costForTwo": "₹200 for two",
             "cuisines": [
-                "Mexican",
-                "American",
-                "Salads",
-                "Continental",
-                "Keto",
-                "Healthy Food"
-            ],
-            "avgRating": 4.6,
-            "parentId": "1252",
-            "avgRatingString": "4.6",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 33,
-                "lastMileTravel": 5,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "5.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-04 23:00:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "20% OFF",
-                "subHeader": "UPTO ₹50"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/california-burrito-malleshwaram-bangalore-16073",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "8766",
-            "name": "Beijing Bites",
-            "imageId": "ca0eb08d0635fd6da2e5a480fec897d0",
-            "locality": "Richmond Town",
-            "areaName": "Richmond Town",
-            "costForTwo": "₹450 for two",
-            "cuisines": [
-                "Chinese"
+                "North Indian",
+                "Bihari"
             ],
             "avgRating": 4.3,
-            "parentId": "103",
+            "parentId": "369080",
             "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
+            "totalRatingsString": "5K+",
             "sla": {
                 "deliveryTime": 23,
-                "lastMileTravel": 2.4,
+                "lastMileTravel": 2.7,
                 "serviceability": "SERVICEABLE",
                 "slaString": "20-25 mins",
-                "lastMileTravelString": "2.4 km",
+                "lastMileTravelString": "2.7 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-05 00:00:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/beijing-bites-richmond-town-bangalore-8766",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "65797",
-            "name": "Leon's - Burgers & Wings (Leon Grill)",
-            "imageId": "b2edbc28b7b8219d6e0a9c049ce06658",
-            "locality": "Koramangala",
-            "areaName": "Koramangala",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "American",
-                "Snacks",
-                "Turkish",
-                "Portuguese",
-                "Continental"
-            ],
-            "avgRating": 4.4,
-            "parentId": "371281",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 33,
-                "lastMileTravel": 6.4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "6.4 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-05 04:00:00",
+                "nextCloseTime": "2024-03-06 03:00:00",
                 "opened": true
             },
             "badges": {},
@@ -250,9 +87,21 @@ export const restaurantsList =  [
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "₹100 OFF",
-                "subHeader": "ABOVE ₹499",
-                "discountTag": "FLAT DEAL"
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹95",
+                "discountTag": "POCKET HERO",
+                "discountCalloutInfo": {
+                    "message": "Free Delivery",
+                    "logoCtx": {
+                        "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+                    }
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -266,39 +115,42 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/leons-burgers-and-wings-leon-grill-koramangala-bangalore-65797",
+            "link": "https://www.swiggy.com/restaurants/litti-heist-1st-block-koramangala-bangalore-619503",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "352792",
-            "name": "Grameen Kulfi",
-            "imageId": "garnimnzruqmizx2acjt",
-            "locality": "Robertson Road",
-            "areaName": "Frazer Town",
-            "costForTwo": "₹120 for two",
+            "id": "5934",
+            "name": "Burger King",
+            "imageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+            "locality": "Koramangala",
+            "areaName": "Koramangala",
+            "costForTwo": "₹350 for two",
             "cuisines": [
-                "Ice Cream",
-                "Desserts"
+                "Burgers",
+                "American"
             ],
-            "avgRating": 4.7,
-            "veg": true,
-            "parentId": "12175",
-            "avgRatingString": "4.7",
-            "totalRatingsString": "100+",
+            "avgRating": 4.3,
+            "parentId": "166",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 24,
-                "lastMileTravel": 4.5,
+                "deliveryTime": 25,
+                "lastMileTravel": 1.6,
                 "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "4.5 km",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.6 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-04 23:00:00",
+                "nextCloseTime": "2024-03-06 05:00:00",
                 "opened": true
             },
             "badges": {},
@@ -315,6 +167,12 @@ export const restaurantsList =  [
                 "header": "60% OFF",
                 "subHeader": "UPTO ₹120"
             },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -327,231 +185,43 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/grameen-kulfi-robertson-road-frazer-town-bangalore-352792",
+            "link": "https://www.swiggy.com/restaurants/burger-king-koramangala-bangalore-5934",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "63048",
-            "name": "Sharief Bhai",
-            "imageId": "9ca4ac15ca5cdee1e71efe15909d465f",
-            "locality": "Frazer Town",
-            "areaName": "Frazer Town",
-            "costForTwo": "₹400 for two",
+            "id": "660675",
+            "name": "Cafe Amudham",
+            "imageId": "384d020ad18d2752ddd119cb585024d7",
+            "locality": "5th Block Kormangala",
+            "areaName": "Koramangala",
+            "costForTwo": "₹200 for two",
             "cuisines": [
-                "Biryani",
-                "Kebabs",
-                "Mughlai",
-                "Arabian",
                 "South Indian",
-                "Rolls & Wraps",
-                "Street Food",
-                "Fast Food",
-                "Desserts",
-                "Beverages"
+                "Snacks"
             ],
-            "avgRating": 4.3,
-            "parentId": "5734",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "396620",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "5K+",
             "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 4.7,
+                "deliveryTime": 20,
+                "lastMileTravel": 0.9,
                 "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "4.7 km",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "0.9 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-05 03:01:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/sharief-bhai-frazer-town-bangalore-63048",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "5938",
-            "name": "Burger King",
-            "imageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
-            "locality": "Tasker Town",
-            "areaName": "Shivaji Nagar",
-            "costForTwo": "₹350 for two",
-            "cuisines": [
-                "Burgers",
-                "American"
-            ],
-            "avgRating": 4.3,
-            "parentId": "166",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 24,
-                "lastMileTravel": 2.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "2.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-05 02:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "ITEMS",
-                "subHeader": "AT ₹129"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/burger-king-tasker-town-shivaji-nagar-bangalore-5938",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "347868",
-            "name": "KFC",
-            "imageId": "f01666ac73626461d7455d9c24005cd4",
-            "locality": "Cunnigham road",
-            "areaName": "Vasanth Nagar",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Burgers",
-                "Biryani",
-                "American",
-                "Snacks",
-                "Fast Food"
-            ],
-            "avgRating": 4.1,
-            "parentId": "547",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 24,
-                "lastMileTravel": 3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "3.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-05 03:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "20% OFF",
-                "subHeader": "UPTO ₹50"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/kfc-cunnigham-road-vasanth-nagar-bangalore-347868",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "43836",
-            "name": "McDonald's",
-            "imageId": "f62564e14944753903849c4ef673af4d",
-            "locality": "MG Road",
-            "areaName": "Ashok Nagar",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Burgers",
-                "Beverages",
-                "Cafe",
-                "Desserts"
-            ],
-            "avgRating": 4.3,
-            "parentId": "630",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 21,
-                "lastMileTravel": 0.7,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "0.7 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-04 23:00:00",
+                "nextCloseTime": "2024-03-06 00:45:00",
                 "opened": true
             },
             "badges": {
@@ -587,6 +257,12 @@ export const restaurantsList =  [
                 "header": "20% OFF",
                 "subHeader": "UPTO ₹50"
             },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -599,37 +275,42 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/mcdonalds-mg-road-ashok-nagar-bangalore-43836",
+            "link": "https://www.swiggy.com/restaurants/cafe-amudham-5th-block-kormangala-koramangala-bangalore-660675",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "10575",
-            "name": "Pizza Hut",
-            "imageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-            "locality": "Shanti Nagar",
-            "areaName": "Shanti Nagar",
-            "costForTwo": "₹600 for two",
+            "id": "437721",
+            "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+            "imageId": "zeebapgpk2nhhxpvnlen",
+            "locality": "Sree Renuka Yellama temple road",
+            "areaName": "Koramangala",
+            "costForTwo": "₹300 for two",
             "cuisines": [
-                "Pizzas"
+                "Ice Cream"
             ],
-            "avgRating": 4.1,
-            "parentId": "721",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "5K+",
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "582",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "100+",
             "sla": {
-                "deliveryTime": 27,
-                "lastMileTravel": 2.5,
+                "deliveryTime": 16,
+                "lastMileTravel": 1.2,
                 "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "2.5 km",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "1.2 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-05 01:00:00",
+                "nextCloseTime": "2024-03-06 04:00:00",
                 "opened": true
             },
             "badges": {},
@@ -646,88 +327,11 @@ export const restaurantsList =  [
                 "header": "50% OFF",
                 "subHeader": "UPTO ₹100"
             },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/pizza-hut-shanti-nagar-bangalore-10575",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "45871",
-            "name": "Subway",
-            "imageId": "63178e3e64d503a479f2a2048a474552",
-            "locality": "Brigade Road",
-            "areaName": "Central Bangalore",
-            "costForTwo": "₹350 for two",
-            "cuisines": [
-                "Fast Food",
-                "Salads",
-                "Snacks",
-                "Desserts",
-                "Beverages"
-            ],
-            "avgRating": 4.2,
-            "parentId": "2",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 2.1,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "2.1 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-04 23:59:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹100 OFF",
-                "subHeader": "ABOVE ₹599",
-                "discountTag": "FLAT DEAL"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -741,39 +345,43 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/subway-brigade-road-central-bangalore-bangalore-45871",
+            "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-sree-renuka-yellama-temple-road-koramangala-bangalore-437721",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "5167",
+            "id": "426776",
             "name": "Theobroma",
             "imageId": "63dd75492c47fcec191132b8eb299ea5",
-            "locality": "2nd stage",
-            "areaName": "Indiranagar",
+            "locality": "7th Block",
+            "areaName": "Koramangala",
             "costForTwo": "₹400 for two",
             "cuisines": [
-                "Bakery",
                 "Desserts",
+                "Bakery",
                 "Beverages"
             ],
-            "avgRating": 4.6,
+            "avgRating": 4.7,
             "parentId": "1040",
-            "avgRatingString": "4.6",
-            "totalRatingsString": "10K+",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "1K+",
             "sla": {
-                "deliveryTime": 33,
-                "lastMileTravel": 7.3,
+                "deliveryTime": 20,
+                "lastMileTravel": 2.4,
                 "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "7.3 km",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.4 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-04 23:59:00",
+                "nextCloseTime": "2024-03-05 23:00:00",
                 "opened": true
             },
             "badges": {
@@ -810,99 +418,11 @@ export const restaurantsList =  [
                 "subHeader": "ABOVE ₹499",
                 "discountTag": "FLAT DEAL"
             },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/theobroma-2nd-stage-indiranagar-bangalore-5167",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "25282",
-            "name": "Baskin Robbins - Ice Cream Desserts",
-            "imageId": "85ccae4e3576f9330af102c46ca85395",
-            "locality": "Millars Road",
-            "areaName": "Vasanth Nagar",
-            "costForTwo": "₹263 for two",
-            "cuisines": [
-                "Desserts"
-            ],
-            "avgRating": 4.5,
-            "veg": true,
-            "parentId": "5588",
-            "avgRatingString": "4.5",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 24,
-                "lastMileTravel": 3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "3.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-05 00:00:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "v1695133679/badges/Pure_Veg111.png",
-                        "description": "pureveg"
-                    }
-                ],
-                "textExtendedBadges": [
-                    {
-                        "iconId": "v1705582451/Ratnesh_Badges/Listing_HR.png",
-                        "shortDescription": "Perfect Cake Delivery",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "pureveg",
-                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "v1705582451/Ratnesh_Badges/Listing_HR.png",
-                                    "shortDescription": "Perfect Cake Delivery"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "30% OFF",
-                "subHeader": "UPTO ₹75"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -916,39 +436,43 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-millars-road-vasanth-nagar-bangalore-25282",
+            "link": "https://www.swiggy.com/restaurants/theobroma-7th-block-koramangala-bangalore-426776",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "30532",
+            "id": "425",
             "name": "Hotel Empire",
-            "imageId": "rr7pmwfukwldpp3eaxo3",
-            "locality": "Infantry Road\t",
-            "areaName": "Infantry Road",
+            "imageId": "un4omn7rcunkmlw6vikr",
+            "locality": "Koramangala",
+            "areaName": "Koramangala",
             "costForTwo": "₹450 for two",
             "cuisines": [
                 "North Indian",
                 "Kebabs",
                 "Biryani"
             ],
-            "avgRating": 4.4,
+            "avgRating": 4.3,
             "parentId": "475",
-            "avgRatingString": "4.4",
+            "avgRatingString": "4.3",
             "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 28,
-                "lastMileTravel": 2.2,
+                "deliveryTime": 25,
+                "lastMileTravel": 1.4,
                 "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "2.2 km",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "1.4 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-05 03:00:00",
+                "nextCloseTime": "2024-03-06 03:00:00",
                 "opened": true
             },
             "badges": {},
@@ -965,6 +489,12 @@ export const restaurantsList =  [
                 "header": "10% OFF",
                 "subHeader": "UPTO ₹40"
             },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -977,141 +507,47 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/hotel-empire-infantry-road-bangalore-30532",
+            "link": "https://www.swiggy.com/restaurants/hotel-empire-koramangala-bangalore-425",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "503961",
-            "name": "Istah - The Mediterranean Way",
-            "imageId": "9a01f2935fcb5ae05426db8264062102",
-            "locality": "Shanti Nagar",
-            "areaName": "Santhi Nagar",
-            "costForTwo": "₹250 for two",
+            "id": "330996",
+            "name": "Savoury Seashell Restaurant - Kerala Style",
+            "imageId": "134015e074c8776c3c4872e3384c6aa4",
+            "locality": "Maruti Nagar",
+            "areaName": "Btm Layout",
+            "costForTwo": "₹450 for two",
             "cuisines": [
-                "Mediterranean",
-                "Snacks",
-                "Biryani",
-                "Grill",
-                "Kebabs",
                 "Arabian",
-                "Lebanese",
-                "Beverages",
-                "Desserts",
-                "Italian",
-                "Turkish"
+                "Indian",
+                "Chinese",
+                "Tandoor",
+                "Biryani",
+                "Seafood",
+                "Kerala"
             ],
-            "avgRating": 4.5,
-            "parentId": "3518",
-            "avgRatingString": "4.5",
+            "avgRating": 4.3,
+            "parentId": "472352",
+            "avgRatingString": "4.3",
             "totalRatingsString": "1K+",
             "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 2.7,
+                "deliveryTime": 22,
+                "lastMileTravel": 2,
                 "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "2.7 km",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.0 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-05 00:00:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                        "description": "OnlyOnSwiggy"
-                    }
-                ],
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "OnlyOnSwiggy",
-                                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹110"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/istah-the-mediterranean-way-shanti-nagar-santhi-nagar-bangalore-503961",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "23847",
-            "name": "Domino's Pizza",
-            "imageId": "fjqcvqfgqlw6h0atques",
-            "locality": "Rest House Road",
-            "areaName": "Brigade Road",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Pizzas",
-                "Italian",
-                "Pastas",
-                "Desserts"
-            ],
-            "avgRating": 4.4,
-            "parentId": "2456",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "5K+",
-            "sla": {
-                "deliveryTime": 25,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25 mins",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-04 22:59:00",
+                "nextCloseTime": "2024-03-06 00:00:00",
                 "opened": true
             },
             "badges": {},
@@ -1125,8 +561,14 @@ export const restaurantsList =  [
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "30% OFF",
-                "subHeader": "UPTO ₹75"
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1140,40 +582,338 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/dominos-pizza-rest-house-road-brigade-road-bangalore-23847",
+            "link": "https://www.swiggy.com/restaurants/savoury-seashell-restaurant-kerala-style-maruti-nagar-btm-layout-bangalore-330996",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "279060",
-            "name": "Sikandar Rolls",
-            "imageId": "m6c0uvtstsvvnzb99fkm",
-            "locality": "MG Road",
-            "areaName": "M G Road",
-            "costForTwo": "₹300 for two",
+            "id": "32729",
+            "name": "Tandoori Merchant",
+            "imageId": "ofzayjya5zbvnhbvyhdc",
+            "locality": "Madiwala",
+            "areaName": "Btm Layout",
+            "costForTwo": "₹100 for two",
             "cuisines": [
-                "North Indian",
-                "Kebabs",
-                "Beverages",
-                "Desserts"
+                "Andhra",
+                "Biryani",
+                "Chinese",
+                "Desserts",
+                "Seafood",
+                "South Indian"
             ],
-            "avgRating": 4.6,
-            "parentId": "470950",
-            "avgRatingString": "4.6",
-            "totalRatingsString": "1K+",
+            "avgRating": 4.3,
+            "parentId": "21570",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
             "sla": {
                 "deliveryTime": 26,
-                "lastMileTravel": 1.5,
+                "lastMileTravel": 1.9,
                 "serviceability": "SERVICEABLE",
                 "slaString": "25-30 mins",
-                "lastMileTravelString": "1.5 km",
+                "lastMileTravelString": "1.9 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-04 23:15:00",
+                "nextCloseTime": "2024-03-06 03:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/tandoori-merchant-madiwala-btm-layout-bangalore-32729",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "221",
+            "name": "Luckhnow Street",
+            "imageId": "zjrznitw3mcizggcg4kk",
+            "locality": "5th block",
+            "areaName": "Koramangala",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "North Indian",
+                "Lucknowi",
+                "Awadhi",
+                "Biryani",
+                "Barbecue"
+            ],
+            "avgRating": 4.2,
+            "parentId": "437646",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/luckhnow-street-5th-block-koramangala-bangalore-221",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "1371",
+            "name": "Hotel Savitha Family Restaurant",
+            "imageId": "711abd2480bd9338518a25e3f1643ace",
+            "locality": "4th block",
+            "areaName": "Koramangala",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "South Indian",
+                "Biryani",
+                "Chinese",
+                "Indian",
+                "Tandoor",
+                "Beverages"
+            ],
+            "avgRating": 4,
+            "parentId": "20934",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 00:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/hotel-savitha-family-restaurant-4th-block-koramangala-bangalore-1371",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "254831",
+            "name": "Bathinda Station",
+            "imageId": "mdy6plseope9ydeld94d",
+            "locality": "HSR Layout",
+            "areaName": "HSR Layout",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Punjabi",
+                "Chinese",
+                "Sweets",
+                "Desserts",
+                "Tandoor",
+                "Beverages"
+            ],
+            "avgRating": 4.1,
+            "parentId": "14503",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 4.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "4.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/bathinda-station-hsr-layout-bangalore-254831",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "589412",
+            "name": "No 10 Fort Cochin",
+            "imageId": "d483e45a7a5669cf7f7f725108bf359c",
+            "locality": "Indiranagar",
+            "areaName": "Indiranagar",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Seafood",
+                "Kerala",
+                "Biryani"
+            ],
+            "avgRating": 4.2,
+            "parentId": "9085",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:59:00",
                 "opened": true
             },
             "badges": {},
@@ -1187,6 +927,12 @@ export const restaurantsList =  [
                     "textExtendedBadges": {}
                 }
             },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -1199,48 +945,267 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/sikandar-rolls-mg-road-m-g-road-bangalore-279060",
+            "link": "https://www.swiggy.com/restaurants/no-10-fort-cochin-indiranagar-bangalore-589412",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "396748",
-            "name": "The Good Bowl",
-            "imageId": "6e04be27387483a7c00444f8e8241108",
-            "locality": "Residency Road",
-            "areaName": "Shantinagar",
+            "id": "66603",
+            "name": "Szechuan Dragon",
+            "imageId": "no5jhmeu39vhuvky3tgw",
+            "locality": "Banashankari",
+            "areaName": "HSR Layout",
             "costForTwo": "₹400 for two",
             "cuisines": [
-                "Biryani",
-                "Pastas",
-                "Punjabi",
-                "Desserts",
-                "Beverages"
+                "Chinese",
+                "Pan-Asian",
+                "Seafood"
             ],
-            "avgRating": 4.3,
-            "parentId": "7918",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "100+",
+            "avgRating": 4.1,
+            "parentId": "7539",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 24,
-                "lastMileTravel": 2.1,
+                "deliveryTime": 32,
+                "lastMileTravel": 4.7,
                 "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "2.1 km",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "4.7 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-04 23:59:00",
+                "nextCloseTime": "2024-03-06 00:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/szechuan-dragon-banashankari-hsr-layout-bangalore-66603",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "58087",
+            "name": "Hiyar Majhe Kolkata",
+            "imageId": "bv32mh8oozkhj4fd5rxl",
+            "locality": "2nd Stage",
+            "areaName": "BTM Layout",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "North Indian",
+                "Bengali",
+                "Chinese",
+                "Desserts"
+            ],
+            "avgRating": 4.3,
+            "parentId": "11208",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 4.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "4.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/hiyar-majhe-kolkata-2nd-stage-btm-layout-bangalore-58087",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "223",
+            "name": "Truffles",
+            "imageId": "cd832b6167eb9f88aeb1ccdebf38d942",
+            "locality": "Koramangala",
+            "areaName": "Koramangala",
+            "costForTwo": "₹450 for two",
+            "cuisines": [
+                "American",
+                "Continental",
+                "Desserts",
+                "Italian"
+            ],
+            "avgRating": 4.5,
+            "parentId": "218065",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-108d8081-0343-4c5b-8e00-d0bd8520d136"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/truffles-koramangala-bangalore-223",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+    ,
+    {
+        "info": {
+            "id": "376324",
+            "name": "The Brooklyn Creamery - Healthy Ice Cream",
+            "imageId": "b1b35780a9b1dfeb26d680506d494eaa",
+            "locality": "PIPELINE",
+            "areaName": "MALLESHWARAM",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Desserts",
+                "Ice Cream",
+                "Healthy Food"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "236673",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:00:00",
                 "opened": true
             },
             "badges": {
                 "textExtendedBadges": [
                     {
                         "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
+                        "shortDescription": "brand",
                         "fontColor": "#7E808C"
                     }
                 ]
@@ -1258,7 +1223,7 @@ export const restaurantsList =  [
                                     "description": "",
                                     "fontColor": "#7E808C",
                                     "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
+                                    "shortDescription": "brand"
                                 }
                             }
                         ]
@@ -1269,6 +1234,12 @@ export const restaurantsList =  [
                 "header": "50% OFF",
                 "subHeader": "UPTO ₹100"
             },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -1281,168 +1252,43 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/the-good-bowl-residency-road-shantinagar-bangalore-396748",
+            "link": "https://www.swiggy.com/restaurants/the-brooklyn-creamery-healthy-ice-cream-pipeline-malleshwaram-bangalore-376324",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     },
     {
         "info": {
-            "id": "353030",
-            "name": "Chowman",
-            "imageId": "ee11c6725be7e634e8f8fc2bde6308b0",
-            "locality": "Indiranagar",
-            "areaName": "Indiranagar",
-            "costForTwo": "₹800 for two",
+            "id": "298363",
+            "name": "Haka",
+            "imageId": "r6zswhk4piqtats0nw7g",
+            "locality": "Church Street",
+            "areaName": "Church Street",
+            "costForTwo": "₹500 for two",
             "cuisines": [
                 "Chinese",
                 "Asian",
-                "Thai",
-                "Oriental",
-                "Burmese",
-                "Tibetan"
+                "Seafood"
             ],
             "avgRating": 4.3,
-            "parentId": "266",
+            "parentId": "92713",
             "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 32,
-                "lastMileTravel": 6.1,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "6.1 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-04 23:59:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/chowman-indiranagar-bangalore-353030",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "3369",
-            "name": "Truffles",
-            "imageId": "cd832b6167eb9f88aeb1ccdebf38d942",
-            "locality": "St. Marks Road",
-            "areaName": "St. Marks Road",
-            "costForTwo": "₹450 for two",
-            "cuisines": [
-                "American",
-                "Desserts",
-                "Continental",
-                "Italian"
-            ],
-            "avgRating": 4.6,
-            "parentId": "218065",
-            "avgRatingString": "4.6",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 19,
-                "lastMileTravel": 0.8,
-                "serviceability": "SERVICEABLE",
-                "slaString": "15-20 mins",
-                "lastMileTravelString": "0.8 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-04 23:30:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/truffles-st-marks-road-bangalore-3369",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "396108",
-            "name": "Suzy Q",
-            "imageId": "als9xfk5lkrvizbq3lhx",
-            "locality": "Cunningham Road",
-            "areaName": "Cunningham Road",
-            "costForTwo": "₹800 for two",
-            "cuisines": [
-                "Indian",
-                "Continental",
-                "Seafood",
-                "Asian",
-                "Chaat",
-                "Desserts"
-            ],
-            "avgRating": 4.3,
-            "parentId": "454247",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "1K+",
+            "totalRatingsString": "500+",
             "sla": {
                 "deliveryTime": 29,
-                "lastMileTravel": 1.8,
+                "lastMileTravel": 1.3,
                 "serviceability": "SERVICEABLE",
                 "slaString": "25-30 mins",
-                "lastMileTravelString": "1.8 km",
+                "lastMileTravelString": "1.3 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-04 23:30:00",
+                "nextCloseTime": "2024-03-05 23:00:00",
                 "opened": true
             },
             "badges": {
@@ -1472,8 +1318,15 @@ export const restaurantsList =  [
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1487,11 +1340,1065 @@ export const restaurantsList =  [
             "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
             "restaurantOfferPresentationInfo": {}
         },
-        "analytics": {},
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/suzy-q-cunningham-road-bangalore-396108",
+            "link": "https://www.swiggy.com/restaurants/haka-church-street-bangalore-298363",
+            "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
-        }
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "606918",
+            "name": "Chickpet Donne Biryani House",
+            "imageId": "orlqk94usnkgjq7zoun8",
+            "locality": "3rd Block",
+            "areaName": "Jayanagar",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani",
+                "Kebabs",
+                "South Indian"
+            ],
+            "avgRating": 4.1,
+            "parentId": "5634",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 01:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/chickpet-donne-biryani-house-3rd-block-jayanagar-bangalore-606918",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "719516",
+            "name": "Firangi Falooda",
+            "imageId": "5bc22aacd9519670794db0bc6964ae91",
+            "locality": "Jayanagar",
+            "areaName": "Basavanagudi",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Desserts",
+                "Beverages",
+                "Fast Food",
+                "Burgers",
+                "Snacks"
+            ],
+            "avgRating": 4.1,
+            "veg": true,
+            "parentId": "7273",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 4.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "4.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/firangi-falooda-jayanagar-basavanagudi-bangalore-719516",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "672387",
+            "name": "Cafe Delhi Heights",
+            "imageId": "6373143e852214f7a73414dc727cc975",
+            "locality": "Forum Rex Walk",
+            "areaName": "Brigade Road",
+            "costForTwo": "₹800 for two",
+            "cuisines": [
+                "Continental",
+                "Indian",
+                "North Indian",
+                "Italian",
+                "American",
+                "Cafe",
+                "Burgers"
+            ],
+            "avgRating": 4.5,
+            "parentId": "5408",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 34,
+                "lastMileTravel": 2.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/cafe-delhi-heights-forum-rex-walk-brigade-road-bangalore-672387",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "616273",
+            "name": "Bhatti Chicken - Grilled, NOT Fried!",
+            "imageId": "3b07757650e9c4c993d4d11b95b0c1e8",
+            "locality": "Langford Road",
+            "areaName": "Shanti Nagar",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "North Indian",
+                "Snacks",
+                "Fast Food",
+                "Tandoor"
+            ],
+            "avgRating": 4.4,
+            "parentId": "355286",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "9",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23-33 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹110"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/bhatti-chicken-grilled-not-fried-langford-road-shanti-nagar-bangalore-616273",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "439628",
+            "name": "Madno - House of Sundaes",
+            "imageId": "e7e6d9fa256d81e5c8bfd79003844ef6",
+            "locality": "Brigade Road",
+            "areaName": "Brigade Road",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Beverages"
+            ],
+            "avgRating": 4,
+            "parentId": "264082",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 2.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 01:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/madno-house-of-sundaes-brigade-road-bangalore-439628",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "503000",
+            "name": "Itminaan Matka Biryani - Slow Cooked",
+            "imageId": "e165225d26130103fecf1c40f5dc3669",
+            "locality": "Lakshmi Road",
+            "areaName": "Shanti Nagar",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Mughlai"
+            ],
+            "avgRating": 4.3,
+            "parentId": "107673",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21-31 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/itminaan-matka-biryani-slow-cooked-lakshmi-road-shanti-nagar-bangalore-503000",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "801447",
+            "name": "Makhani Darbar",
+            "imageId": "c583da4b69d264ffe705e5918fad0e98",
+            "locality": "Residency Road Relocation",
+            "areaName": "Residency Road",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Kebabs",
+                "Mughlai",
+                "Beverages",
+                "Desserts"
+            ],
+            "parentId": "478595",
+            "avgRatingString": "NEW",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/makhani-darbar-relocation-residency-road-bangalore-801447",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "420484",
+            "name": "Keventers Ice Cream",
+            "imageId": "763214ca062fe36dfb5ef23c57856126",
+            "locality": "Garuda Mall",
+            "areaName": "Magrath Road",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "parentId": "272044",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 01:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹69"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/keventers-ice-cream-garuda-mall-magrath-road-bangalore-420484",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "578520",
+            "name": "GOPIZZA",
+            "imageId": "c370997155fcfb74a415e199ed789e60",
+            "locality": "Garuda Mall",
+            "areaName": "Magrath Road",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Pizzas",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.2,
+            "parentId": "21732",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 22:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/gopizza-garuda-mall-magrath-road-bangalore-578520",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "247501",
+            "name": "Delights by INOX",
+            "imageId": "b857fcf611707fedd3773eb02688f925",
+            "locality": "Garuda Mall",
+            "areaName": "Magrath Road",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Snacks"
+            ],
+            "avgRating": 4.4,
+            "parentId": "385095",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/delights-by-inox-garuda-mall-magrath-road-bangalore-247501",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "789286",
+            "name": "Dil Punjabi By Dil Foods",
+            "imageId": "48c9e5ab0d17fce59dedebc69564c239",
+            "locality": "Brigade Road",
+            "areaName": "Brigade Road",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "North Indian",
+                "Punjabi",
+                "Home Food",
+                "Thalis",
+                "Biryani",
+                "Indian",
+                "Desserts",
+                "Snacks",
+                "Sweets",
+                "Beverages"
+            ],
+            "avgRating": 3.9,
+            "parentId": "2923",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 00:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/dil-punjabi-by-dil-foods-brigade-road-bangalore-789286",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "14360",
+            "name": "Plan B",
+            "imageId": "cgegcurjvfk83vtgmckc",
+            "locality": "Ashok Nagar",
+            "areaName": "Ashok Nagar",
+            "costForTwo": "₹1200 for two",
+            "cuisines": [
+                "American"
+            ],
+            "avgRating": 4.3,
+            "parentId": "2212",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-06 01:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/plan-b-ashok-nagar-bangalore-14360",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "420143",
+            "name": "Minus 30",
+            "imageId": "84dfb731ca567d0cd955a5f33ffeba3a",
+            "locality": "Old Airport Road",
+            "areaName": "Shivajinagar",
+            "costForTwo": "₹600 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts",
+                "Healthy Food",
+                "Beverages"
+            ],
+            "avgRating": 4.7,
+            "parentId": "292823",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-05 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-9c20038c-0bcf-40e6-812b-fd005233bf3f"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/minus-30-old-airport-road-shivajinagar-bangalore-420143",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     }
 ];
 
