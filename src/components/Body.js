@@ -9,27 +9,43 @@ const Body = () => {
     const currentLocation="";
     const [foodCategoryList,setFoodCategoryList]=useState([]);
     const [restaurants,setRestaurants]=useState([]);
-    const categoryCardDimension={'width':'100px','height':'120px'};
+    const categoryCardDimension={'width':'120px','height':'120px'};
     const restaurantCardDimension={'width':'400px','height':'200px'};
     const emptyList=[1,2,3,4,5,6,7,8,9,10,11,12,13,14];
 
     useEffect( ()=>{
         async function fetchApi(){
-        const apiResponse = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=13.0719019&lng=77.62640549999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        // const apiResponse = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=13.0239923&lng=77.643294&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
-        const jsonData=await apiResponse.json();
-        setFoodCategoryList(await jsonData?.data?.cards[0]?.card?.card?.imageGridCards?.info);
-        setRestaurants(await jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        // const jsonData=await apiResponse.json();
+        // setFoodCategoryList(await jsonData?.data?.cards[0]?.card?.card?.imageGridCards?.info);
+        // setRestaurants(await jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        const categoryApi = await fetch("https://localhost:7204/api/foodcategories");
+        const categoryData = await categoryApi.json();
+        setFoodCategoryList(await categoryData);
 
-            console.log(restaurants);
-
+        const restaurantsApi = await fetch("https://localhost:7204/api/restaurants");
+        const restaurantsData = await restaurantsApi.json();
+        setRestaurants(await restaurantsData);
     }
     fetchApi();
     },[]);
     
     function filterTopRatedRestaurants(){
-        setRestaurants(restaurantsList.filter((item)=>{
-        return item.info.avgRating >= 4.5;
+        // let cList="";
+        // foodCategoryList.map((item)=>{
+        //     cList=cList+"('"+item.id+"','"+item.imageId+"','"+item.action?.text+"'),";
+        // })
+        // console.log(cList.toString());
+        // let rList="";
+        // restaurants.map((item)=>{
+            //SQL Querying data migration
+            //rList=rList+"('"+item.info.id+"','"+item.info.cloudinaryImageId+"','"+item.info.name+"',"+item.info.avgRating+",'"+item.info.areaName+"',"+Math.round(Math.random())+"),";
+        //     rList=rList+'("'+item.info.id+'","'+item.info.cloudinaryImageId+'","'+item.info.name+'",'+item.info.avgRating+',"'+item.info.areaName+'",'+Math.round(Math.random())+'),';
+        // })
+        // console.log(rList);
+        setRestaurants(restaurants.filter((item)=>{
+            return item.info.avgRating >= 4.5;
         }));
     }
     
@@ -66,7 +82,8 @@ const Body = () => {
                 ))
                 :
                 restaurants.map((item)=>(
-                        <RestaurantCard key={item.info.id} restaurant={item.info}/>
+                        // <RestaurantCard key={item.info.id} restaurant={item.info}/>
+                        <RestaurantCard key={item?.id} restaurant={item}/>
                     )
                 )
             }
